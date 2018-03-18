@@ -1,0 +1,9 @@
+db:
+  image: mysql
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_DATABASE: spend
+    MYSQL_USER: spender
+    MYSQL_PASSWORD: somethingsecret
+    MYSQL_ROOT_PASSWORD: admin1234
